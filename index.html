@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    }
+    header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    }
+    header .container {
+    position: relative;
+    z-index: 2;
+    }
+    header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    }
+    @media (pointer: coarse) and (hover: none) {
+    header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+    header video {
+    display: none;
+    }
+    }
+    </style>
+  </head>
+  <body>
+
+
+    <nav style="background-color:#F7EED0">
+      
+      <!-- Brand/logo -->
+      <div class="row w-100">
+        <div class="col-md-8 align-middle m-auto">
+          <div class="row navbar-brand">
+            <img style="width:7%; height: 65%" class="ml-5" src="web 2/logo 2.png" >
+            <a href="index.html"></a> 
+           
+          </div>
+          
+        </div>
+        <div class="col-md-4 m-auto ">
+          <div class="row">
+            <div class="col-md-4 m-auto ml-2">
+              <div class="row justify-content-end ">
+                <a style="font-family: Averta for TBWA Semibold; color: #223059" href="services-2.html">Facial Treatment</a>
+              </div>
+            </div>
+            <div class="col-md-4 m-auto ml-2">
+              <div style="padding-left:20px; " class="row justify-content-end ">
+                <a style="font-family: Averta for TBWA Semibold; color: #223059" href="services.html">Body Treatment</a>
+              </div>
+            </div>
+            <div class="col-md-4 m-auto ml-2">
+              <div class="row justify-content-center">
+                <a style="font-family: Averta for TBWA Semibold;color: #223059" href="about.html">About</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </nav>
+    <header>
+      
+      <video style="height: 100vh; width: 100vw; margin-top:-2px" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="web 2/vid-1.mp4" type="video/mp4">
+      </video>
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 style="font-family: Loretto" class="display-3">Parapluie</h1>
+            <p style="font-family: Averta for TBWA" class="lead mb-0">Parapluie Spa introduces new treatments from The Biologique Recherché.</p>
+            <br>
+            <br>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="services-2.html"><button style="background-color: #223059; width: 18vw; height: 5vh; border:none; margin-left: 20vw; font-family:Averta for TBWA Semibold; color: white">Facial care</button></a>
+              </div>
+              <div class="col-md-6">
+                <a href="services.html"><button style="background-color:#223059;width: 18vw; height: 5vh; border:none; margin-right: 20vw; font-family:Averta for TBWA Semibold; color: white ">Body care</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main-page">
+      <div style="padding-left: 7vw; padding-right: 7vw; margin-top: 10vh" class="row first-row">
+        <div class="col-md-3 first-col">
+          <div class="row" style="position: relative; text-align: center;">
+            <h4 style="position: absolute; top: 45%; left: 25%; font-size: 140%; color: #223059; font-family: Averta for TBWA Semibold">Facial Treatment</h4>
+            <img class="m-auto"
+            width=300 height=300
+          src="web 2/9.png"></div>
+
+        </div>
+        <div class="col-md-3 sec-col">
+          <div class="row" style="position: relative; text-align: center;">
+            <h4 style="position: absolute; top: 45%; left: 25%; font-size: 140%; color: #223059; font-family: Averta for TBWA Semibold">Body Treatment</h4>
+            <img class="m-auto"  width=300 height=300 src="web 2/6.png">
+          </div>
+        </div>
+        <div class="col-md-3 third-col">
+          <div class="row" style="position: relative; text-align: center;">
+            <h4 style="position: absolute; top: 45%; left: 37%; font-size: 140%; color: #223059; font-family: Averta for TBWA Semibold">Products</h4>
+            <img class="m-auto"  width=300 height=300 src="web 2/10.png">
+          </div>
+        </div>
+        <div class="col-md-3 forth-col">
+          <div class="row" style="position: relative; text-align: center;">
+            <h4 style="position: absolute; top: 45%; left: 40%; font-size: 140%; color: #223059; font-family: Averta for TBWA Semibold">Tips</h4>
+            <img class="m-auto"  width=300 height=300
+            src="web 2/8.png">
+          </div>
+        </div>
+      </div>
+      <div style="padding-left: 7vw; padding-right: 7vw; margin-top: 7vh" class="row sec-row">
+        <div class="col-md-6 l-header">
+          <div class="row">
+            <h1 style="font-size: 8vh; font-family: Loretto; color: #223059">Summer skin: bright, </h1>
+            <h1 style="font-size: 8vh; font-family: Loretto; color: #223059">exposed,</h1>
+            <h1 style="font-size: 8vh; font-family: Loretto; color: #223059">often at risk</h1>
+          </div>
+        </div>
+        <div class="col-md-6 r-header">
+          <div class="row"></div>
+          <h4 style="font-family:Averta for TBWA Semibold; color: #3F5930 ">The Biologique Recherché Methodology - Best solution spa for summer</h4>
+
+          <br>
+          
+          <div class="row"></div>
+          <p style="font-family: Montserrat; color: #543412">
+            Skin in summer: bright, exposed, often at risk. Why? Skin is vulnerable to UV radiation year-round, but the summer sun’s increased strength, combined with the increased attractiveness of outdoor pursuits, leaves skin particularly susceptible to damage. Protection of both body and face is paramount. And remember, reapply regularly. The Biologique Recherché Methodology is based on nearly forty years of experience using innovative products and meticulous protocols.
+
+The products are formulated with high concentrations of active ingredients derived from natural or biotechnological compounds and are fragrance-free. Skin care is provided following a personal dermocosmetic diagnosis using a Skin Instant© analysis for each individual.
+
+
+          </p>
+          
+          <div class="row p-3" >
+            <button style="border-radius: 0; background-color: #223059 !important; color: white; font-family: Averta for TBWA" class="btn btn-secondary btn-block">Discover now</button>
+          </div>
+          
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    <footer style="background-color: #223059; margin-top: 12vh">
+      <div style="padding-top: 10vh" class="row phone-numb m-auto">
+        <h5 style="color: white; margin: auto;font-family: Averta for TBWA; font-size: 100%">082 216 2135</h5>
+      </div>
+      <div style="padding-top: 3vh" class="row join-our-list m-auto">
+        <h5 style="color: white;margin:auto;font-family: Superclarendon; font-size: 140%">Join our list</h5>
+      </div>
+      <div style="padding-top: 3vh" class="row subcribe">
+        <h5 style="color: white; margin:auto;font-family: Averta for TBWA; font-size: 100%"> Subscribe to our mailing list to receive updates and promotional offers.
+        </h5>
+      </div>
+      <br>
+      <div class="row button">
+        <div class="col-md-8">
+          <div class="row">
+            <input style="width: 40vw; height: 5vh; margin-left: 25vw" type="text"/>
+          </div>
+        </div>
+        <div style="padding-right: 5vw" class="col-md-4">
+          <div class="row">
+            <button style="border-radius: 0 !important; width: 13vw; height: 5vh; background-color: #D9C091; color: #223059; font-family: Averta for TBWA Semibold" class="btn btn-secondary;">Send</button>
+          </div>
+        </div>
+      </div>
+      <div class="row social-media my-4">
+        <div class="col-md-12">
+          <div class="row justify-content-center">
+            <a class="btn btn-outline-light btn-floating mx-2  fa fa-facebook" href="https://www.facebook.com/Naturopathica/" role="button"
+              href="https://www.facebook.com/StrangerThingsTV"
+            ></a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating mx-2  fa fa-twitter" href="https://twitter.com/naturopathica" role="button"
+            ></a>
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating mx-2  fa fa-google" href="https://www.pinterest.com/naturopathica/_shop/" role="button"
+            ></a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating mx-2  fa fa-instagram" href="https://www.instagram.com/naturopathica/" role="button"
+              href="https://www.instagram.com/strangerthingstv/"
+            ></a>
+          </div>
+        </div>
+        
+      </div>
+      <div style="padding-top: 3vh"class="row copyright">
+        <h5 style="color: white;margin:auto; font-family: Averta for TBWA; font-size: 80%">Disclaimer : This website has been done as a part of Assignment, this company does not exist.</h5>
+      
+
+      </div>
+      <br>
+    </footer>
+  </body>
+</html>
